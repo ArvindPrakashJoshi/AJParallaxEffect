@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4482409E1B50FF3B009EAD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482409D1B50FF3B009EAD48 /* AppDelegate.swift */; };
+		448240A01B50FF3B009EAD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4482409F1B50FF3B009EAD48 /* ViewController.swift */; };
+		448240A31B50FF3B009EAD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448240A11B50FF3B009EAD48 /* Main.storyboard */; };
+		448240A51B50FF3B009EAD48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448240A41B50FF3B009EAD48 /* Images.xcassets */; };
+		448240A81B50FF3B009EAD48 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448240A61B50FF3B009EAD48 /* LaunchScreen.xib */; };
+		448240B41B50FF3B009EAD48 /* AJParallaxEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448240B31B50FF3B009EAD48 /* AJParallaxEffectTests.swift */; };
+		448240BE1B510205009EAD48 /* AJParallaxEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448240BD1B510205009EAD48 /* AJParallaxEffectViewController.swift */; };
+		448240C11B51057C009EAD48 /* ParallaxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448240C01B51057C009EAD48 /* ParallaxCollectionViewCell.swift */; };
+		448240C31B510EB0009EAD48 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448240C21B510EB0009EAD48 /* Constant.swift */; };
+		448240CA1B512B7D009EAD48 /* promo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 448240C51B512B7D009EAD48 /* promo1.jpg */; };
+		448240CB1B512B7D009EAD48 /* promo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 448240C61B512B7D009EAD48 /* promo2.jpg */; };
+		448240CC1B512B7D009EAD48 /* promo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 448240C71B512B7D009EAD48 /* promo3.jpg */; };
+		448240CD1B512B7D009EAD48 /* promo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 448240C81B512B7D009EAD48 /* promo4.jpg */; };
+		448240CE1B512B7D009EAD48 /* promo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 448240C91B512B7D009EAD48 /* promo5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		448240AE1B50FF3B009EAD48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 448240901B50FF3B009EAD48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 448240971B50FF3B009EAD48;
+			remoteInfo = AJParallaxEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		448240981B50FF3B009EAD48 /* AJParallaxEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJParallaxEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4482409C1B50FF3B009EAD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4482409D1B50FF3B009EAD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4482409F1B50FF3B009EAD48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		448240A21B50FF3B009EAD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		448240A41B50FF3B009EAD48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		448240A71B50FF3B009EAD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		448240AD1B50FF3B009EAD48 /* AJParallaxEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJParallaxEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		448240B21B50FF3B009EAD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448240B31B50FF3B009EAD48 /* AJParallaxEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJParallaxEffectTests.swift; sourceTree = "<group>"; };
+		448240BD1B510205009EAD48 /* AJParallaxEffectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJParallaxEffectViewController.swift; sourceTree = "<group>"; };
+		448240C01B51057C009EAD48 /* ParallaxCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxCollectionViewCell.swift; sourceTree = "<group>"; };
+		448240C21B510EB0009EAD48 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		448240C51B512B7D009EAD48 /* promo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo1.jpg; sourceTree = "<group>"; };
+		448240C61B512B7D009EAD48 /* promo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo2.jpg; sourceTree = "<group>"; };
+		448240C71B512B7D009EAD48 /* promo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo3.jpg; sourceTree = "<group>"; };
+		448240C81B512B7D009EAD48 /* promo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo4.jpg; sourceTree = "<group>"; };
+		448240C91B512B7D009EAD48 /* promo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = promo5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448240951B50FF3B009EAD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448240AA1B50FF3B009EAD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4482408F1B50FF3B009EAD48 = {
+			isa = PBXGroup;
+			children = (
+				4482409A1B50FF3B009EAD48 /* AJParallaxEffect */,
+				448240B01B50FF3B009EAD48 /* AJParallaxEffectTests */,
+				448240991B50FF3B009EAD48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		448240991B50FF3B009EAD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448240981B50FF3B009EAD48 /* AJParallaxEffect.app */,
+				448240AD1B50FF3B009EAD48 /* AJParallaxEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4482409A1B50FF3B009EAD48 /* AJParallaxEffect */ = {
+			isa = PBXGroup;
+			children = (
+				448240BF1B510532009EAD48 /* CustomCell */,
+				4482409D1B50FF3B009EAD48 /* AppDelegate.swift */,
+				4482409F1B50FF3B009EAD48 /* ViewController.swift */,
+				448240BD1B510205009EAD48 /* AJParallaxEffectViewController.swift */,
+				448240C21B510EB0009EAD48 /* Constant.swift */,
+				448240A11B50FF3B009EAD48 /* Main.storyboard */,
+				448240A41B50FF3B009EAD48 /* Images.xcassets */,
+				448240A61B50FF3B009EAD48 /* LaunchScreen.xib */,
+				448240C41B512B7D009EAD48 /* Images */,
+				4482409B1B50FF3B009EAD48 /* Supporting Files */,
+			);
+			path = AJParallaxEffect;
+			sourceTree = "<group>";
+		};
+		4482409B1B50FF3B009EAD48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4482409C1B50FF3B009EAD48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		448240B01B50FF3B009EAD48 /* AJParallaxEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				448240B31B50FF3B009EAD48 /* AJParallaxEffectTests.swift */,
+				448240B11B50FF3B009EAD48 /* Supporting Files */,
+			);
+			path = AJParallaxEffectTests;
+			sourceTree = "<group>";
+		};
+		448240B11B50FF3B009EAD48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				448240B21B50FF3B009EAD48 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		448240BF1B510532009EAD48 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				448240C01B51057C009EAD48 /* ParallaxCollectionViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		448240C41B512B7D009EAD48 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				448240C51B512B7D009EAD48 /* promo1.jpg */,
+				448240C61B512B7D009EAD48 /* promo2.jpg */,
+				448240C71B512B7D009EAD48 /* promo3.jpg */,
+				448240C81B512B7D009EAD48 /* promo4.jpg */,
+				448240C91B512B7D009EAD48 /* promo5.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448240971B50FF3B009EAD48 /* AJParallaxEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448240B71B50FF3B009EAD48 /* Build configuration list for PBXNativeTarget "AJParallaxEffect" */;
+			buildPhases = (
+				448240941B50FF3B009EAD48 /* Sources */,
+				448240951B50FF3B009EAD48 /* Frameworks */,
+				448240961B50FF3B009EAD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJParallaxEffect;
+			productName = AJParallaxEffect;
+			productReference = 448240981B50FF3B009EAD48 /* AJParallaxEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		448240AC1B50FF3B009EAD48 /* AJParallaxEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448240BA1B50FF3B009EAD48 /* Build configuration list for PBXNativeTarget "AJParallaxEffectTests" */;
+			buildPhases = (
+				448240A91B50FF3B009EAD48 /* Sources */,
+				448240AA1B50FF3B009EAD48 /* Frameworks */,
+				448240AB1B50FF3B009EAD48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				448240AF1B50FF3B009EAD48 /* PBXTargetDependency */,
+			);
+			name = AJParallaxEffectTests;
+			productName = AJParallaxEffectTests;
+			productReference = 448240AD1B50FF3B009EAD48 /* AJParallaxEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448240901B50FF3B009EAD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arvind Joshi";
+				TargetAttributes = {
+					448240971B50FF3B009EAD48 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					448240AC1B50FF3B009EAD48 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 448240971B50FF3B009EAD48;
+					};
+				};
+			};
+			buildConfigurationList = 448240931B50FF3B009EAD48 /* Build configuration list for PBXProject "AJParallaxEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4482408F1B50FF3B009EAD48;
+			productRefGroup = 448240991B50FF3B009EAD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448240971B50FF3B009EAD48 /* AJParallaxEffect */,
+				448240AC1B50FF3B009EAD48 /* AJParallaxEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448240961B50FF3B009EAD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448240A31B50FF3B009EAD48 /* Main.storyboard in Resources */,
+				448240A81B50FF3B009EAD48 /* LaunchScreen.xib in Resources */,
+				448240CD1B512B7D009EAD48 /* promo4.jpg in Resources */,
+				448240CE1B512B7D009EAD48 /* promo5.jpg in Resources */,
+				448240CB1B512B7D009EAD48 /* promo2.jpg in Resources */,
+				448240A51B50FF3B009EAD48 /* Images.xcassets in Resources */,
+				448240CA1B512B7D009EAD48 /* promo1.jpg in Resources */,
+				448240CC1B512B7D009EAD48 /* promo3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448240AB1B50FF3B009EAD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448240941B50FF3B009EAD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448240A01B50FF3B009EAD48 /* ViewController.swift in Sources */,
+				4482409E1B50FF3B009EAD48 /* AppDelegate.swift in Sources */,
+				448240C31B510EB0009EAD48 /* Constant.swift in Sources */,
+				448240C11B51057C009EAD48 /* ParallaxCollectionViewCell.swift in Sources */,
+				448240BE1B510205009EAD48 /* AJParallaxEffectViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		448240A91B50FF3B009EAD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448240B41B50FF3B009EAD48 /* AJParallaxEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		448240AF1B50FF3B009EAD48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 448240971B50FF3B009EAD48 /* AJParallaxEffect */;
+			targetProxy = 448240AE1B50FF3B009EAD48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		448240A11B50FF3B009EAD48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448240A21B50FF3B009EAD48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		448240A61B50FF3B009EAD48 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				448240A71B50FF3B009EAD48 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		448240B51B50FF3B009EAD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448240B61B50FF3B009EAD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448240B81B50FF3B009EAD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AJParallaxEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		448240B91B50FF3B009EAD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AJParallaxEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		448240BB1B50FF3B009EAD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AJParallaxEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJParallaxEffect.app/AJParallaxEffect";
+			};
+			name = Debug;
+		};
+		448240BC1B50FF3B009EAD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AJParallaxEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJParallaxEffect.app/AJParallaxEffect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448240931B50FF3B009EAD48 /* Build configuration list for PBXProject "AJParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448240B51B50FF3B009EAD48 /* Debug */,
+				448240B61B50FF3B009EAD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448240B71B50FF3B009EAD48 /* Build configuration list for PBXNativeTarget "AJParallaxEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448240B81B50FF3B009EAD48 /* Debug */,
+				448240B91B50FF3B009EAD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		448240BA1B50FF3B009EAD48 /* Build configuration list for PBXNativeTarget "AJParallaxEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448240BB1B50FF3B009EAD48 /* Debug */,
+				448240BC1B50FF3B009EAD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448240901B50FF3B009EAD48 /* Project object */;
+}
